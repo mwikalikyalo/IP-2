@@ -29,5 +29,8 @@ let femaleNames=[Akosua, Adwoa, Abenna, Akua, Yaa, Afua, Ama];
 
 //calculations
 function calculateTheDay(){
-    
+    getInput();
+        calculateTheDay= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + days ) % 7;
+        console.log("Your Akan Name");
+        return (math.floor(dayOfTheWeek));
 }
