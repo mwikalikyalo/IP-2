@@ -21,3 +21,13 @@ function validate() {
       alert("Gender input required:");
   }
 }
+
+//arrays
+let daysOfTheWeek=[Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday];
+let maleNames=[Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame];
+let femaleNames=[Akosua, Adwoa, Abenna, Akua, Yaa, Afua, Ama];
+
+//calculations
+function calculateTheDay(){
+    
+}
