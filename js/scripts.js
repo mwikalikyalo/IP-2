@@ -1,4 +1,4 @@
-var itemsNeeded= [century, year, month, day];
+var itemsNeeded= ['century', 'year', 'month', 'day'];
 
 //parseint and validate
 function validate() {
@@ -23,14 +23,23 @@ function validate() {
 }
 
 //arrays
-let daysOfTheWeek=[Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday];
-let maleNames=[Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame];
-let femaleNames=[Akosua, Adwoa, Abenna, Akua, Yaa, Afua, Ama];
+let daysOfTheWeek=['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+let maleNames=['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+let femaleNames=['Akosua', 'Adwoa', 'Abenna', 'Akua', 'Yaa', 'Afua', 'Ama'];
 
 //calculations
 function calculateTheDay(){
-    getInput();
-        calculateTheDay= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + days ) % 7;
-        console.log("Your Akan Name");
+    getdayOfTheWeek();
+        dayOfTheWeek= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + days ) % 7;
+        console.log("Day of the week");
         return (math.floor(dayOfTheWeek));
 }
+
+//daytoGender
+function checkDayOfWeek() {
+    day = calculateTheDay();
+    checkGender();
+    console.log("The function runs");
+}
+
+

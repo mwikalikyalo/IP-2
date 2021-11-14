@@ -22,39 +22,41 @@ div.container{
   float: right;
 }
 
-div.paragraph1{
-  color: #E98074;
+p{
+  color: #9c7c79;
   font-size: large;
   font-weight: bold;
   text-align: center;
-  border: 2px solid #8E8D8A;
   box-shadow: 5%;
   padding: 2px;
   margin: 2px;
   border: 2px;
 }
 
-table, th, td {
-  border: 3px solid white;
+h1#intro{
+  color: #E85A47;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2#name{
+  color: #E85A47;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 4px;
   border-collapse: collapse;
-  border-style: solid;
+}
+
+table, th, td {
+  border-style: 2px solid white;
   padding: 10px;
   color: #E85A47;
   font-weight: bold;
 }
 
-.male-female{
+table{
   display: flex;
-  flex-direction: row;
-  position: relative;
-}
-
-#intro-calc{
-  font-size: 20px;
-  font-weight: bold;
-  color: #E85A4F;
-  text-align: center;
-  border: 2px solid #8E8D8A;
+  justify-content: left;
 }
 
 #name{
@@ -62,18 +64,21 @@ table, th, td {
   color: #E85A47;
 }
 
-.filled{
+.footer{
   text-align: center;
-  color: #E85A4F;
+  color: white;
   font-weight: bold;
+  padding: auto;
+  margin: auto;
+  border: 5px solid black;
+  background-color: #E85A4F;
 }
 
 #name{
   text-align: center;
-  color: #E85A4F;
+  color: white;
   text-decoration: underline;
 }
-
 
 button{
   text-align: center;
