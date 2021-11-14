@@ -1,0 +1,1 @@
+var itemsNeeded= [century, month, day,]
