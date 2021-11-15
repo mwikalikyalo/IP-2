@@ -32,14 +32,10 @@ function calculateTheDay(){
     getdayOfTheWeek();
         dayOfTheWeek= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + days ) % 7;
         console.log("Day of the week");
-        return (math.floor(dayOfTheWeek));
+        return (math.floor(dayOfTheWeek));    
 }
 
-//daytoGender
-function checkDayOfWeek() {
-    day = calculateTheDay();
-    checkGender();
-    console.log("The function runs");
-}
+
+
 
 
