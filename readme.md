@@ -4,7 +4,7 @@
 ## Description
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 ## Setup/Installation Requirements
-**The webpage works on a web browser so the only setup requirement is to click on the live link. It can be accessed on the internet using a laptop, phone or tablet.**
+git clone https://github.com/mwikalikyalo/IP-2
 ## BDD
 #### Inputs Description
 * Century The century that the user was born in, eg 20th century.
